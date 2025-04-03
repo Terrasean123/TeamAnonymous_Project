@@ -25,9 +25,9 @@
                 <label for="jobRefNum">Job reference number:
                     <select name="jobRefNum" id="jobRefNum" required>
                         <option value="">Please Select</option>
-                        <option value="tutor1">SDT21</option>
-                        <option value="tutor2">ISA58</option>
-                        <option value="tutor3">DAN92</option>
+                        <option value="SDT21">SDT21</option>
+                        <option value="ISA58">ISA58</option>
+                        <option value="DAN92">DAN92</option>
                     </select>
                 </label>
             </p>
@@ -53,6 +53,31 @@
 				    <input type="radio" id="female" name="gender" value="female">
                 </p>
             </fieldset>
+            <p>
+                <label for="streetAddress">Street address: 
+                    <input type="text" name="streetAddress" id="streetAddress" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
+                </label>
+            </p>
+            <p>
+                <label for="suburbTown">Suburb/town: 
+                    <input type="text" name="suburbTown" id="suburbTown" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
+                </label>
+            </p>
+            <p>
+                <label for="state">State: 
+                    <select name="state" id="state" required>
+                        <option value="">Please select</option>
+                        <option value="VIC">VIC</option>
+                        <option value="NSW">NSW</option>
+                        <option value="QLD">QLD</option>
+                        <option value="NT">NT</option>
+                        <option value="WA">WA</option>
+                        <option value="SA">SA</option>
+                        <option value="TAS">TAS</option>
+                        <option value="ACT">ACT</option>
+                    </select>
+                </label>
+            </p>
         </fieldset>
     </form>
 </body>
