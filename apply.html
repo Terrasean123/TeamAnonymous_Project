@@ -35,7 +35,12 @@
                 </label>
             </p>
             <p>
-                
+                <label for="firstName">First Name
+                    <input type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
+                </label>
+                <label for="lastName">Last Name
+                    <input type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
+                </label>
             </p>
         </fieldset>
     </form>
