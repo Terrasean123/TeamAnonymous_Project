@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Yamen Sayes">
     <title>Apply for a job | Anonymous</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a herf="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+        <fieldset>
+            <legend>Apply for a job:</legend>
+            <p>
+                <label for id="jobRefNum">Job reference number:
+                    <select name="jobRefNum" id="jobRefNum" required>
+                        <option value="">Please Select</option>
+                        <option value="tutor1">Option 1</option>
+                        <option value="tutor2">Option 2</option>
+                        <option value="tutor3">Option 3</option>
+                        <option value="tutor4">Option 4</option>
+                        <option value="tutor5">Option 5</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>
