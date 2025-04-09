@@ -1,0 +1,100 @@
+/* Header menu - Author: Sean Makoka - Last Modified: 8/4/2025 */
+.menu{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6638a4;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover {
+    background-color: #2e085f;
+}
+/* Header menu */
+
+/* Footer menu - Author: Sean Makoka - Last Modified: 8/4/2025 */
+footer{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6638a4;
+}
+/* Footer menu */
+
+/* Apply prompt - Author: Sean Makoka - Last Modified: 8/4/2025*/
+.apply_prompt{
+    display: block;
+    float: none;
+    border: solid, 10px;
+    border-radius:  25px;
+    background-color: white;
+    border-color: #6638a4;
+    text-align: center;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    bottom: 500px ;
+    font-size: 1.5pc ;
+
+}
+
+.apply_prompt a{
+    display: block;
+    float: none;
+    border-radius:  25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #6638a4;
+    border-color: #6638a4;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: 115px;
+    font-size: 1.5pc ;
+    width: 165px;
+}
+/* Apply Prompt*/
+
+/* keywords/general Use - Author: Sean Makoka - Date modified: 8/4/2025 */
+.keywords{
+    color:#6638a4;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bolder; */
+}
+/* keywords/general use*/
+
+/* .hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/programming image.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */
