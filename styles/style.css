@@ -7,6 +7,7 @@ footer{
     padding: 0;
     overflow: hidden;
     background-color: #6638a4;
+    clear: both;
 }
 /* Footer menu */
 
@@ -27,7 +28,6 @@ footer{
     left: 200px;
     bottom: 500px ;
     font-size: 1.5pc ;
-
 }
 
 .apply_prompt a{
@@ -523,5 +523,40 @@ footer {
         text-align: center;
         order: 3;
     }
+}
+
+
+.main_header h1 {
+    background-color: #672d71;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+.banner_image {
+    margin: 0;
+}
+
+#essential {
+    width: 20%;
+    float: left;
+}
+
+#preferrable {
+    width: 40%;
+    float: left;
+}
+
+#responsibilities {
+    width: 40%;
+    float: left
+}
+
+.SDT21, .ISA58, .DAN92 {
+    clear: both;
+}
+
+.jobs {
+    box-sizing: border-box;
 }
 
