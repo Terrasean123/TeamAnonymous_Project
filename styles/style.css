@@ -98,3 +98,53 @@ footer{
     transform: translate(-50%, -50%);
     color: white;
 } */
+
+/* Jobs.html parts Author: Mustafa Jaffari - Last Modified: 10/4/2025*/
+#join_team {
+    position: absolute;
+    color: white; /* Adjust text color */
+    font-size: 100px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    width: 50%;
+}
+
+.SDT21{
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    float: left;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.ISA58 {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.DAN92{
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em auto;  
+    padding: 1em;
+    width: 30%;  
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+footer {
+    border-top: 4px double #6638a4;
+    text-align: center;
+    clear:both;
+}
+
+footer p{
+    display: inline-block;
+    width: 33%;
+}
