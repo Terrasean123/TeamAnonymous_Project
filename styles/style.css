@@ -524,3 +524,29 @@ footer {
         order: 3;
     }
 }
+
+/* Banner Content */
+.banner_image {
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(rgb(174, 145, 225), rgba(91, 38, 91, 0.6)), url('../images/test_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.Main_header h1 {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
