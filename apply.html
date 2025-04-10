@@ -22,10 +22,10 @@
             </ul>
         </nav>
     </header>
-    <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+    <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php"> <!--Opening the form-->
         <fieldset>
             <legend>Apply for a job:</legend>
-            <p>
+            <p>     <!--Input for the job reference number-->
                 <label for="jobRefNum">Job reference number:
                     <select name="jobRefNum" id="jobRefNum" required>
                         <option value="">Please Select</option>
@@ -35,7 +35,7 @@
                     </select>
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for first and last names-->
                 <label for="firstName">First Name
                     <input type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
                 </label>
@@ -43,12 +43,12 @@
                     <input type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for date of birth-->
                 <label for="dob">Date of Birth
                     <input type="date" name= "dob" id="dob" size="10"> 
                 </label>
             </p>
-            <fieldset>
+            <fieldset>      <!--Input for gender-->
                 <legend>Gender</legend>
                 <p>
                     <label for="male">Male</label> 
@@ -57,17 +57,17 @@
 				    <input type="radio" id="female" name="gender" value="female">
                 </p>
             </fieldset>
-            <p>
+            <p>     <!--Input for street address -->
                 <label for="streetAddress">Street address: 
                     <input type="text" name="streetAddress" id="streetAddress" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for suburb/town-->
                 <label for="suburbTown">Suburb/town: 
                     <input type="text" name="suburbTown" id="suburbTown" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for state-->
                 <label for="state">State: 
                     <select name="state" id="state" required>
                         <option value="">Please select</option>
@@ -82,27 +82,27 @@
                     </select>
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for the postcode-->
                 <label for="postcode">Postcode
                     <input type="text" name="postcode" id="postcode" minlength="4" maxlength="4" pattern="[0-9]+">
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for phone number-->
                 <label for="phoneNumber">Phone Number
                     <input type="text" name="phoneNumber" id="phoneNumber" minlength="8" maxlength="12" pattern="[0-9]+">
                 </label>
             </p>
-            <p>
+            <p>     <!--Input for technical list checkbox-->
                 <!--required technical list checkbox here-->
             </p>
-            <p>
+            <p>     <!--Input for other skills-->
                 <label for="otherSkills">Other skills
                     <p></p>
                     <textarea name="otherSkills" id="otherSkills" rows="4" cols="40" placeholder="Write about your other skills here..."></textarea>
                 </label>
             </p>
-            <input type= "submit" value="Submit"/>
-	        <input type= "reset" value="Reset Form"/>
+            <input type= "submit" value="Submit"/>      <!--Submit button-->
+	        <input type= "reset" value="Reset Form"/>   <!--reset form button-->
         </fieldset>
     </form>
     <footer>
