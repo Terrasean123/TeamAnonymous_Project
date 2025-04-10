@@ -537,26 +537,40 @@ footer {
     margin: 0;
 }
 
+.jobs {
+    box-sizing: border-box;
+}
+
 #essential {
     width: 20%;
     float: left;
+    padding: 10px;
 }
 
 #preferrable {
-    width: 40%;
+    width: 20%;
     float: left;
+    padding: 10px;
+    border: #41105f;
 }
 
 #responsibilities {
     width: 40%;
-    float: left
+    float: left;
+    padding: 10px;
 }
 
 .SDT21, .ISA58, .DAN92 {
     clear: both;
 }
 
-.jobs {
-    box-sizing: border-box;
+#candidate_description {
+    clear: both;
+}
+
+@media screen and (max-width:600px){
+    #essential, #preferrable, #responsibilities{
+        width: 100%;
+    }
 }
 
