@@ -548,3 +548,7 @@ legend {
     color: #ffa500;
 }
 
+#applyBody{
+    background-image: linear-gradient(135deg, rgba(55, 11, 82, 0.40), rgba(167, 63, 185, 0.40)),url('images/applyPageBackground.png');
+    background-position: center;
+}
