@@ -525,12 +525,16 @@ footer {
     }
 }
 
-/* Jobs page style Author Mustafa Jaffari Created 10/04 , Last Modified 10/04 */
+/* Jobs page style Author Mustafa Jaffari Created 10/04 , Last Modified 11/04*/
 .main_header h1 {
     background-color: #672d71;
     text-align: center;
     padding: 25px;
     color: white;
+    font-variant: ;
+    font-size: ;
+    font-weight: ;
+    font-family: ;
 }
 
 .banner_image {
@@ -545,6 +549,7 @@ footer {
     width: 40%;
     float: left;
     padding: 10px;
+    margin: 50px;
 }
 
 #preferrable {
@@ -552,16 +557,24 @@ footer {
     float: right;
     padding: 10px;
     border: #41105f;
+    border: 5px solid pink;
+    border-radius: 10px;
+    margin: 50px;
 }
 
 #responsibilities {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 10px;
+    margin: 50px;
 }
 
 .SDT21, .ISA58, .DAN92 {
     clear: both;
+    margin: 10%;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 230, 255, 0.95));
+    
 }
 
 #candidate_description {
