@@ -153,7 +153,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Hero Section */
+/*   Section */
 .banner {
     position: relative;
     height: 500px;
@@ -524,3 +524,39 @@ footer {
         order: 3;
     }
 }
+
+/* Apply page style - Author: Yamen Sayes - Date modified: 10/4/2025 */
+
+.applyForm{
+    padding-inline: 17%;
+    padding-block: 3%;
+}
+
+#applyFormSection {
+    border-style:solid;
+    border-radius: 8%;
+    border-color: #ffa500;
+    border-width: 3px;
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    background: linear-gradient(13deg, #370b52, #a73fb9);
+    color: #ffffff;
+    text-align: center;
+}
+
+legend {
+    color: #ffa500;
+}
+
+#applyBody{
+    background-image: linear-gradient(135deg, rgba(55, 11, 82, 0.40), rgba(167, 63, 185, 0.40)),url('images/applyPageBackground.png');
+    background-position: center;
+}
+
+/*
+#genderRadio {
+    justify-content: space-around;
+}
+???????????????
+*/
