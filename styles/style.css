@@ -76,35 +76,28 @@ footer{
 }
 
 .info_block_list{
-    
+    display: flex;
     list-style-type: none;
     margin:0;
     padding: 0;
     overflow: hidden;
-}
-
-.info_block_list li{
-    float:  left;
+    align-items: center;
+   justify-content:space-around ;
 }
 
 .info_block {
-    padding: 16px;
     text-align: center;
-    
-}
-
-.info_block p{
-    max-width: 20em;
-}
-.info_block h2
-{
 }
 
 .info_block img{
-    max-width: 20%;
+    max-width: 70%; 
     height: auto;
-    padding: 0;
+    padding: -30%;
     border: 0;
+}
+
+#workingFromHomeImg{
+    /* float: left; */
 }
 
 
