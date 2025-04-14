@@ -25,7 +25,7 @@
     <div class="applyForm">
         <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php"> <!--Opening the form-->
             <fieldset id="applyFormSection">
-                <legend id="formLegend">Apply for a job:</legend>
+                <legend id="formLegend"><strong>Apply for a job:</strong></legend>
                 <p>     <!--Input for the job reference number-->
                     <label for="jobRefNum">Job reference number:
                         <select name="jobRefNum" id="jobRefNum" required>
@@ -52,7 +52,7 @@
                     </label>
                 </p>
                 <fieldset id="genderFieldset">      <!--Input for gender-->
-                    <legend>Gender:</legend>
+                    <legend><strong>Gender:</strong></legend>
                     <p id="genderRadio">
                         <label for="male">Male</label> 
 	        			<input type="radio" id="male" name="gender" value="male" required>
@@ -96,7 +96,7 @@
                     </label>
                 </p>
                 <fieldset id="qualificationCheckbox">
-                    <legend>Required Technical Qualifications:</legend>
+                    <legend><strong>Required Technical Qualifications:</strong></legend>
                     <p>     <!--Input for technical list checkbox-->
                         <input type="checkbox" id="bachelorDegree" name="qualifications[]" value="bachelorDegree" required>
                         <label for="bachelorDegree">Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.</label>
@@ -121,8 +121,12 @@
                         <textarea name="otherSkills" id="otherSkills" rows="4" cols="40" placeholder="Write about your other skills here..."></textarea>
                     </label>
                 </p>
-                <input type= "submit" value="Apply"/>      <!--Submit button-->
-	            <input type= "reset" value="Reset Form"/>   <!--reset form button-->
+                <p>
+                    <input id="applyButton" type= "submit" value="Apply">      <!--Submit button-->
+                </p>
+                <p>
+	                <input id="resetButton" type= "reset" value="Reset Form">   <!--reset form button-->
+                </p>
             </fieldset>
         </form>
     </div>

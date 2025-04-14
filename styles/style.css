@@ -1,22 +1,12 @@
 
 
-/* Footer menu - Author: Sean Makoka - Last Modified: 8/4/2025 */
-footer{
-    list-style-type: none ;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6638a4;
-    clear: both;
-}
-/* Footer menu */
 
 /* Home Page */
-/* Apply prompt - Author: Sean Makoka - Last Modified: 8/4/2025*/
+/* Apply prompt*/
 .apply_prompt{
     display: block;
     float: none;
-    border: solid, 10px;
+    border: solid;
     border-radius:  25px;
     background-color: white;
     border-color: #6638a4;
@@ -27,10 +17,10 @@ footer{
     height: 200px;
     position: relative;
     left: 200px;
-    bottom: 500px ;
+    bottom: 350px ;
     font-size: 1.5pc ;
 }
-/* //border radius  */
+
 .apply_prompt a{
     display: block;
     float: none;
@@ -46,64 +36,40 @@ footer{
     left: 115px;
     font-size: 1.5pc ;
     width: 165px;
+
 }
 /* Apply Prompt*/
 
-/* keywords/general Use - Author: Sean Makoka - Date modified: 8/4/2025 */
+/* keywords/general Use */
 .keywords{
     color:#6638a4;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-weight: bolder; */
-}
-/* keywords/general use*/
 
-.hero_image{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/programming image.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover ;
-    position: relative;
 }
 
-.hero-text{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
 
 .info_block_list{
+    display: flex;
     list-style-type: none;
     margin:0;
     padding: 0;
     overflow: hidden;
-}
-
-.info_block_list li{
-    float:  left;
+    align-items: center;
+   justify-content:space-around ;
 }
 
 .info_block {
-    padding: 16px;
-}
-
-.info_block p{
-    float: left;
     text-align: center;
-    max-width: 20em;
-}
-.info_block h2
-{
 }
 
 .info_block img{
-    max-width: 20%;
+    max-width: 70%; 
     height: auto;
-    padding: 0;
     border: 0;
+}
+
+#workingFromHomeImg{
+    /* float: left; */
 }
 
 
@@ -684,7 +650,72 @@ footer {
     }
 }
 
-/* Apply page style - Author: Yamen Sayes - Date modified: 13/4/2025 */
+/* Jobs page style Author Mustafa Jaffari Created 10/04 , Last Modified 12/04*/
+.main_header h1 { /*Targets main header class */
+    background-color: #672d71; /* Changes Background colour */
+    text-align: center; /* Aligns text in centre */
+    padding: 25px; /* Adds padding to text of 25pixels */
+    color: white; /* Changes font colour to white */
+    font-variant: small-caps; /* puts text in small caps */
+    font-size: 50px; /* Puts the font size to 50pixels */
+    font-weight: bold; /* Puts the text in bold */
+    font-family: sans-serif; /* Utilises the sans sherif font type*/
+}
+
+.banner_image { /* Targets the banner_image class*/
+    margin: 0; /* Removes all white space around the image to fill out whole page */
+}
+
+.jobs { /* Targets jobs class*/   /* */
+    box-sizing: border-box;  /* Keeps padding and border inside the set widhgt and height */
+}
+
+#essential {  /*  Targets essential id element*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left;  /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#preferrable { /*  Targets Preferrable id element*/
+    width: 25%; /* Adds width of 25% to alow it cover 25% of the page*/
+    float: right;  /* Floats this element to the right */
+    padding: 10px; /* Adds padding of 10px */
+    border: 5px solid purple; /*Creates a border around element with 5px and is a solid colour of purple */
+    border-radius: 10px; /*Creates a border radius of extra 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#responsibilities {  /*  Targets Responsibilities id element*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left; /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+.SDT21, .ISA58, .DAN92 { /* Targets the SDT21, ISA58, DAN92 class element*/
+    clear: both;  /*Clears both left and righ floating elements*/
+    margin: 10%; /* Adds margin of 10% */
+    padding: 20px; /* Adds 20px of padding*/
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 230, 255, 0.95));  /* Adds a background colour thaqt is linear gradient */
+    
+}
+
+#candidate_description { /*Targets candidate_description id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+#required_qualifications { /*Targets candidate_description id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+@media screen and (max-width:600px){ /*Reponsive adjusment for mobile screens targeting essential, preferrable and responisiblites element*/
+    #essential, #preferrable, #responsibilities{
+        width: 100%;
+    }
+}
+
+/* Apply page style - Author: Yamen Sayes - Date modified: 14/4/2025 */
 
 .applyForm{
     padding-inline: 17%;
@@ -694,31 +725,57 @@ footer {
 #applyFormSection {
     border-style:solid;
     border-radius: 8%;
-    border-color: #a789c5;
+    border-color: #16051f;
     border-width: 3px;
     padding: 25%;
     padding-top: 0%;
     padding-bottom: 1%;
-    background: linear-gradient(13deg, #370b52, #a73fb9);
-    color: #ffffff;
+    background: linear-gradient(13deg, #9977ae, #eed3f3);
+    color: #000000;
     text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.25);
 }
 
 legend {
-    color: #e5d3f9;
+    color: #3d1d60;
     padding: 0px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background-color: rgba(63, 14, 89, 0.05);
+    border-radius:5%;
+    padding: 3%;
+    padding-block: 1%;
+    border-style: solid;
+    border-color: #3d1d60;
+    border-width: 3px;
+}
+
+#formLegend {
+    font-size:xx-large;
+    color: #ffffff;
+    /*background-color: rgba(63, 14, 89, 0.25);*/
+    background: linear-gradient(135deg, #6e219e, #a73fb9);
+    border-radius: 20%;
+    padding: 3%;
+    padding-block: 1%;
+    border-style: solid;
+    border-color: #16051f;
+    border-width: 3px;
 }
 
 #applyBody{
     background-image: linear-gradient(0deg, rgba(110, 84, 139, 0.75), rgba(240, 230, 255, 0.50)),url('images/applyPageBackground.png');
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
 #genderFieldset {
     border-style:solid;
     border-radius: 20%;
-    border-color: #a789c5;
+    border-color: #3f0e59;
     border-width: 3px;
     padding: 0%;
 }
@@ -726,9 +783,43 @@ legend {
 #qualificationCheckbox {
     border-style:solid;
     border-radius: 10%;
-    border-color: #a789c5;
+    border-color: #3f0e59;
     border-width: 3px;
     padding: 0%;
 }
-???????????????
-*/
+
+#applyButton {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6a1b9a, #cc57e0);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#applyButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#resetButton {
+    display: inline-block;
+    padding: 6px 15px;
+    background: linear-gradient(135deg, #502869, #d590e1);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#resetButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
