@@ -571,7 +571,7 @@ footer {
 
 .banner_image { /* Targets the banner_image class*/
     margin: 0; /* Removes all white space around the image to fill out whole page */
-    width: 100%;
+    width: 100%; /* Width to cover 100% of page*/
 }
 
 .jobs { /* Targets jobs class*/   /* */
