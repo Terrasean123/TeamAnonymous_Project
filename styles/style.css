@@ -29,7 +29,7 @@ footer{
     bottom: 500px ;
     font-size: 1.5pc ;
 }
-
+/* //border radius  */
 .apply_prompt a{
     display: block;
     float: none;
@@ -56,7 +56,7 @@ footer{
 }
 /* keywords/general use*/
 
-/* .hero-image{
+.hero_image{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/programming image.jpg");
     height: 50%;
     background-position: center;
@@ -72,7 +72,7 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-} */
+}
 
 
 
@@ -591,7 +591,7 @@ footer {
     }
 }
 
-/* Apply page style - Author: Yamen Sayes - Date modified: 10/4/2025 */
+/* Apply page style - Author: Yamen Sayes - Date modified: 13/4/2025 */
 
 .applyForm{
     padding-inline: 17%;
@@ -601,9 +601,9 @@ footer {
 #applyFormSection {
     border-style:solid;
     border-radius: 8%;
-    border-color: #ffa500;
+    border-color: #a789c5;
     border-width: 3px;
-    padding: 5%;
+    padding: 25%;
     padding-top: 0%;
     padding-bottom: 1%;
     background: linear-gradient(13deg, #370b52, #a73fb9);
@@ -612,17 +612,30 @@ footer {
 }
 
 legend {
-    color: #ffa500;
+    color: #e5d3f9;
+    padding: 0px;
 }
 
 #applyBody{
-    background-image: linear-gradient(135deg, rgba(55, 11, 82, 0.40), rgba(167, 63, 185, 0.40)),url('images/applyPageBackground.png');
+    background-image: linear-gradient(0deg, rgba(110, 84, 139, 0.75), rgba(240, 230, 255, 0.50)),url('images/applyPageBackground.png');
     background-position: center;
 }
 
-/*
-#genderRadio {
-    justify-content: space-around;
+
+#genderFieldset {
+    border-style:solid;
+    border-radius: 20%;
+    border-color: #a789c5;
+    border-width: 3px;
+    padding: 0%;
+}
+
+#qualificationCheckbox {
+    border-style:solid;
+    border-radius: 10%;
+    border-color: #a789c5;
+    border-width: 3px;
+    padding: 0%;
 }
 ???????????????
 */
