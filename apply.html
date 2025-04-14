@@ -38,12 +38,12 @@
                 </p>
                 <p>     <!--Input for first and last names-->
                     <label for="firstName">First Name:
-                        <input type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
+                        <input type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
                     </label>
                 </p>
                 <p>
                     <label for="lastName">Last Name:
-                        <input type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please only enter a maximum of 20 alpha characters')">
+                        <input type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
                     </label>
                 </p>
                 <p>     <!--Input for date of birth-->
@@ -95,16 +95,33 @@
                         <input type="text" name="phoneNumber" id="phoneNumber" minlength="8" maxlength="12" pattern="[0-9]+">
                     </label>
                 </p>
-                <p>     <!--Input for technical list checkbox-->
-                    <!--required technical list checkbox here-->
-                </p>
+                <fieldset id="qualificationCheckbox">
+                    <legend>Required Technical Qualifications:</legend>
+                    <p>     <!--Input for technical list checkbox-->
+                        <input type="checkbox" id="bachelorDegree" name="qualifications[]" value="bachelorDegree" required>
+                        <label for="bachelorDegree">Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="threeYearsExp" name="qualifications[]" value="threeYearsExp" required>
+                        <label for="threeYearsExp">Minimum of 3 years of professional experience in software development.</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="twoLanguageProficiency" name="qualifications[]" value="twoLanguageProficiency" required>
+                        <label for="twoLanguageProficiency">Strong proficiency in at least two programming languages such as Java, Python, C#, or JavaScript.</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="frameworkExperience" name="qualifications[]" value="frameworkExperience" required>
+                        <label for="frameworkExperience">Experience with software development frameworks and technologies (e.g., .NET, React, Angular, Spring, Django).</label>
+                    </p>
+                    <p></p>
+                </fieldset>
                 <p>     <!--Input for other skills-->
                     <label for="otherSkills">Other skills:
                         <p></p>
                         <textarea name="otherSkills" id="otherSkills" rows="4" cols="40" placeholder="Write about your other skills here..."></textarea>
                     </label>
                 </p>
-                <input type= "submit" value="Submit"/>      <!--Submit button-->
+                <input type= "submit" value="Apply"/>      <!--Submit button-->
 	            <input type= "reset" value="Reset Form"/>   <!--reset form button-->
             </fieldset>
         </form>

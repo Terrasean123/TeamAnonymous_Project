@@ -525,7 +525,7 @@ footer {
     }
 }
 
-/* Apply page style - Author: Yamen Sayes - Date modified: 10/4/2025 */
+/* Apply page style - Author: Yamen Sayes - Date modified: 13/4/2025 */
 
 .applyForm{
     padding-inline: 17%;
@@ -537,7 +537,7 @@ footer {
     border-radius: 8%;
     border-color: #a789c5;
     border-width: 3px;
-    padding: 15%;
+    padding: 25%;
     padding-top: 0%;
     padding-bottom: 1%;
     background: linear-gradient(13deg, #370b52, #a73fb9);
@@ -554,9 +554,11 @@ legend {
     background-position: center;
 }
 
-/*
-#genderRadio {
-    justify-content: space-around;
+
+#genderFieldset {
+    border-style:solid;
+    border-radius: 20%;
+    border-color: #a789c5;
+    border-width: 3px;
+    padding: 0%;
 }
-???????????????
-*/
