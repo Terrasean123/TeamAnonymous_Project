@@ -526,66 +526,65 @@ footer {
 }
 
 /* Jobs page style Author Mustafa Jaffari Created 10/04 , Last Modified 11/04*/
-.main_header h1 {
-    background-color: #672d71;
-    text-align: center;
-    padding: 25px;
-    color: white;
-    font-variant: ;
-    font-size: ;
-    font-weight: ;
-    font-family: ;
+.main_header h1 { /*Targets main header class */
+    background-color: #672d71; /* Changes Background colour */
+    text-align: center; /* Aligns text in centre */
+    padding: 25px; /* Adds padding to text of 25pixels */
+    color: white; /* Changes font colour to white */
+    font-variant: small-caps; /* puts text in small caps */
+    font-size: 50px; /* Puts the font size to 50pixels */
+    font-weight: bold; /* Puts the text in bold */
+    font-family: sans-serif; /* Utilises the sans sherif font type*/
 }
 
-.banner_image {
-    margin: 0;
+.banner_image { /* Targets the banner_image class*/
+    margin: 0; /* Removes all white space around the image to fill out whole page */
 }
 
-.jobs {
-    box-sizing: border-box;
+.jobs { /* Targets jobs class*/   /* */
+    box-sizing: border-box;  /* Keeps padding and border inside the set widhgt and height */
 }
 
-#essential {
-    width: 30%;
-    float: left;
-    padding: 10px;
-    margin: 50px;
+#essential {  /*  Targets essential id element*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left;  /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
 }
 
-#preferrable {
-    width: 25%;
-    float: right;
-    padding: 10px;
-    border: #41105f;
-    border: 5px solid pink;
-    border-radius: 10px;
-    margin: 50px;
+#preferrable { /*  Targets Preferrable id element*/
+    width: 25%; /* Adds width of 25% to alow it cover 25% of the page*/
+    float: right;  /* Floats this element to the right */
+    padding: 10px; /* Adds padding of 10px */
+    border: 5px solid purple; /*Creates a border around element with 5px and is a solid colour of purple */
+    border-radius: 10px; /*Creates a border radius of extra 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
 }
 
-#responsibilities {
-    width: 30%;
-    float: left;
-    padding: 10px;
-    margin: 50px;
+#responsibilities {  /*  Targets Responsibilities id element*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left; /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
 }
 
-.SDT21, .ISA58, .DAN92 {
-    clear: both;
-    margin: 10%;
-    padding: 20px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 230, 255, 0.95));
+.SDT21, .ISA58, .DAN92 { /* Targets the SDT21, ISA58, DAN92 class element*/
+    clear: both;  /*Clears both left and righ floating elements*/
+    margin: 10%; /* Adds margin of 10% */
+    padding: 20px; /* Adds 20px of padding*/
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 230, 255, 0.95));  /* Adds a background colour thaqt is linear gradient */
     
 }
 
-#candidate_description {
-    clear: both;
+#candidate_description { /*Targets candidate_description id element*/
+    clear: both; /*Clears both left and righ floating elements*/
 }
 
-#required_qualifications {
-    clear: both;
+#required_qualifications { /*Targets candidate_description id element*/
+    clear: both; /*Clears both left and righ floating elements*/
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px){ /*Reponsive adjusment for mobile screens targeting essential, preferrable and responisiblites element*/
     #essential, #preferrable, #responsibilities{
         width: 100%;
     }
