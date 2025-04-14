@@ -10,6 +10,7 @@ footer{
 }
 /* Footer menu */
 
+/* Home Page */
 /* Apply prompt - Author: Sean Makoka - Last Modified: 8/4/2025*/
 .apply_prompt{
     display: block;
@@ -74,6 +75,36 @@ footer{
     color: white;
 }
 
+.info_block_list{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.info_block_list li{
+    float:  left;
+}
+
+.info_block {
+    padding: 16px;
+}
+
+.info_block p{
+    float: left;
+    text-align: center;
+    max-width: 20em;
+}
+.info_block h2
+{
+}
+
+.info_block img{
+    max-width: 20%;
+    height: auto;
+    padding: 0;
+    border: 0;
+}
 
 
 /* About Page Style */
