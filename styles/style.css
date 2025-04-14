@@ -525,7 +525,7 @@ footer {
     }
 }
 
-/* Apply page style - Author: Yamen Sayes - Date modified: 13/4/2025 */
+/* Apply page style - Author: Yamen Sayes - Date modified: 14/4/2025 */
 
 .applyForm{
     padding-inline: 17%;
@@ -543,16 +543,22 @@ footer {
     background: linear-gradient(13deg, #370b52, #a73fb9);
     color: #ffffff;
     text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.25);;
 }
 
 legend {
     color: #e5d3f9;
     padding: 0px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 #applyBody{
     background-image: linear-gradient(0deg, rgba(110, 84, 139, 0.75), rgba(240, 230, 255, 0.50)),url('images/applyPageBackground.png');
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -570,4 +576,40 @@ legend {
     border-color: #a789c5;
     border-width: 3px;
     padding: 0%;
+}
+
+#applyButton {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6a1b9a, #cc57e0);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#applyButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#resetButton {
+    display: inline-block;
+    padding: 6px 15px;
+    background: linear-gradient(135deg, #502869, #d590e1);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#resetButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
