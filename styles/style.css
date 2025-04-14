@@ -76,34 +76,28 @@ footer{
 }
 
 .info_block_list{
+    display: flex;
     list-style-type: none;
     margin:0;
     padding: 0;
     overflow: hidden;
-}
-
-.info_block_list li{
-    float:  left;
+    align-items: center;
+   justify-content:space-around ;
 }
 
 .info_block {
-    padding: 16px;
-}
-
-.info_block p{
-    float: left;
     text-align: center;
-    max-width: 20em;
-}
-.info_block h2
-{
 }
 
 .info_block img{
-    max-width: 20%;
+    max-width: 70%; 
     height: auto;
-    padding: 0;
+    padding: -30%;
     border: 0;
+}
+
+#workingFromHomeImg{
+    /* float: left; */
 }
 
 
@@ -570,20 +564,21 @@ footer {
 
 .banner_image { /* Targets the banner_image class*/
     margin: 0; /* Removes all white space around the image to fill out whole page */
+    width: 100%; /* Width to cover 100% of page*/
 }
 
 .jobs { /* Targets jobs class*/   /* */
     box-sizing: border-box;  /* Keeps padding and border inside the set widhgt and height */
 }
 
-#essential {  /*  Targets essential id element*/
+#essentialSDT21 {  /*  Targets essential id element of SDT21*/
     width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
     float: left;  /* Floats this element to the left */
     padding: 10px; /* Adds padding of 10px */
     margin: 50px; /* Adds a margin(space around the element) of 50px*/
 }
 
-#preferrable { /*  Targets Preferrable id element*/
+#preferrableSDT21 { /*  Targets Preferrable id element of SDT21*/
     width: 25%; /* Adds width of 25% to alow it cover 25% of the page*/
     float: right;  /* Floats this element to the right */
     padding: 10px; /* Adds padding of 10px */
@@ -592,7 +587,53 @@ footer {
     margin: 50px; /* Adds a margin(space around the element) of 50px*/
 }
 
-#responsibilities {  /*  Targets Responsibilities id element*/
+#responsibilitiesSDT21 {  /*  Targets Responsibilities id element of SDT21*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left; /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#essentialISA58 {  /*  Targets essential id element of ISA58*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left;  /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#preferrableISA58 { /*  Targets Preferrable id element of ISA58*/
+    width: 25%; /* Adds width of 25% to alow it cover 25% of the page*/
+    float: right;  /* Floats this element to the right */
+    padding: 10px; /* Adds padding of 10px */
+    border: 5px solid purple; /*Creates a border around element with 5px and is a solid colour of purple */
+    border-radius: 10px; /*Creates a border radius of extra 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#responsibilitiesISA58 {  /*  Targets Responsibilities id element of ISA58*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left; /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#essentialDAN92 {  /*  Targets essential id element of DAN92*/
+    width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
+    float: left;  /* Floats this element to the left */
+    padding: 10px; /* Adds padding of 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#preferrableDAN92 { /*  Targets Preferrable id element of DAN92*/
+    width: 25%; /* Adds width of 25% to alow it cover 25% of the page*/
+    float: right;  /* Floats this element to the right */
+    padding: 10px; /* Adds padding of 10px */
+    border: 5px solid purple; /*Creates a border around element with 5px and is a solid colour of purple */
+    border-radius: 10px; /*Creates a border radius of extra 10px */
+    margin: 50px; /* Adds a margin(space around the element) of 50px*/
+}
+
+#responsibilitiesDAN92 {  /*  Targets Responsibilities id element of DAN92*/
     width: 30%; /* Adds width of 30% to alow it cover 30% of the page*/
     float: left; /* Floats this element to the left */
     padding: 10px; /* Adds padding of 10px */
@@ -607,11 +648,27 @@ footer {
     
 }
 
-#candidate_description { /*Targets candidate_description id element*/
+#candidate_descriptionSDT21 { /*Targets candidate_descriptionSDT21 id element*/
     clear: both; /*Clears both left and righ floating elements*/
 }
 
-#required_qualifications { /*Targets candidate_description id element*/
+#candidate_descriptionISA58 { /*Targets candidate_descriptionISA58 id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+#candidate_descriptionDAN92 { /*Targets candidate_descriptionDAN92 id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+#required_qualificationsSDT21 { /*Targets candidate_descriptionSDT21 id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+#required_qualificationsISA58 { /*Targets candidate_descriptionISA58 id element*/
+    clear: both; /*Clears both left and righ floating elements*/
+}
+
+#required_qualificationsDAN92 { /*Targets candidate_descriptionDAN92 id element*/
     clear: both; /*Clears both left and righ floating elements*/
 }
 
