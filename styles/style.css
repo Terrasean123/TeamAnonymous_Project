@@ -482,7 +482,7 @@ footer {
     border-top-right-radius: 15px;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.25);
     margin: 40px auto 0;
-    max-width: 1600px;
+    width: 100%;
 }
 
 .footer-container {
