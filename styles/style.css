@@ -1,18 +1,8 @@
 
 
-/* Footer menu - Author: Sean Makoka - Last Modified: 8/4/2025 */
-footer{
-    list-style-type: none ;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6638a4;
-    clear: both;
-}
-/* Footer menu */
 
 /* Home Page */
-/* Apply prompt - Author: Sean Makoka - Last Modified: 8/4/2025*/
+/* Apply prompt*/
 .apply_prompt{
     display: block;
     float: none;
@@ -30,7 +20,7 @@ footer{
     bottom: 350px ;
     font-size: 1.5pc ;
 }
-/* //border radius  */
+
 .apply_prompt a{
     display: block;
     float: none;
@@ -50,13 +40,13 @@ footer{
 }
 /* Apply Prompt*/
 
-/* keywords/general Use - Author: Sean Makoka - Date modified: 8/4/2025 */
+/* keywords/general Use */
 .keywords{
     color:#6638a4;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-weight: bolder; */
+
 }
-/* keywords/general use*/
+
 
 .info_block_list{
     display: flex;
