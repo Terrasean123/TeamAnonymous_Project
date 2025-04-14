@@ -644,6 +644,29 @@ footer {
     clear: both; /*Clears both left and righ floating elements*/
 }
 
+.apply_button { /* targets apply_button */
+    text-align: center; /* aligns text in centre */
+    margin: 50px ; /* gives it a margin of 50px*/
+}
+
+.apply-button { /* targets apply-button*/
+    display: inline-block; /* displays it inline-block method*/
+    padding: 12px 30px; /* adds padding 12px to top and bottom and 30px left/right*/
+    background: linear-gradient(135deg, #6a1b9a, #a73fb9); /* gives the button a purple gradient background */
+    color: white; /* makes the text white */
+    text-decoration: none; /* removes the underline from the text */
+    border-radius: 25px; /* makes the button edges rounded */
+    font-weight: bold; /* makes the text bold */
+    font-size: 1.1em; /* increases the text size slightly */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* adds a soft shadow under the button */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* makes hover changes smooth */
+}
+
+.apply-button:hover { /* targets the apply-button class when mouse hovers over the button */
+    transform: translateY(-5px); /* moves the button up by 5px*/
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* adds a stronger shadow to make it stand out more */
+}
+
 @media screen and (max-width:600px){ /*Reponsive adjusment for mobile screens targeting essential, preferrable and responisiblites element*/
     #essential, #preferrable, #responsibilities{
         width: 100%;
