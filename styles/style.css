@@ -547,6 +547,7 @@ footer {
 
 legend {
     color: #e5d3f9;
+    padding: 0px;
 }
 
 #applyBody{
@@ -558,6 +559,14 @@ legend {
 #genderFieldset {
     border-style:solid;
     border-radius: 20%;
+    border-color: #a789c5;
+    border-width: 3px;
+    padding: 0%;
+}
+
+#qualificationCheckbox {
+    border-style:solid;
+    border-radius: 10%;
     border-color: #a789c5;
     border-width: 3px;
     padding: 0%;
