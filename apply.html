@@ -28,7 +28,7 @@
                 <legend id="formLegend"><strong>Apply for a job:</strong></legend>
                 <p>     <!--Input for the job reference number-->
                     <label for="jobRefNum">Job reference number:
-                        <select name="jobRefNum" id="jobRefNum" required>
+                        <select class="input" name="jobRefNum" id="jobRefNum" required>
                             <option value="">Please Select</option>
                             <option value="SDT21">SDT21</option>
                             <option value="ISA58">ISA58</option>
@@ -38,17 +38,17 @@
                 </p>
                 <p>     <!--Input for first and last names-->
                     <label for="firstName">First Name:
-                        <input type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
+                        <input class="input" type="text" name="firstName" id="firstName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
                     </label>
                 </p>
                 <p>
                     <label for="lastName">Last Name:
-                        <input type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
+                        <input class="input" type="text" name="lastName" id="lastName" required maxlength="20" pattern="[a-zA-Z]+" oninvalid="('Please only enter a maximum of 20 alpha characters')">
                     </label>
                 </p>
                 <p>     <!--Input for date of birth-->
                     <label for="dob">Date of Birth:
-                        <input type="date" name= "dob" id="dob" size="10" max="2025-12-31" required> 
+                        <input class="input" type="date" name= "dob" id="dob" size="10" max="2025-12-31" required> 
                     </label>
                 </p>
                 <fieldset id="genderFieldset">      <!--Input for gender-->
@@ -62,17 +62,17 @@
                 </fieldset>
                 <p>     <!--Input for street address -->
                     <label for="streetAddress">Street address: 
-                        <input type="text" name="streetAddress" id="streetAddress" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
+                        <input class="input" type="text" name="streetAddress" id="streetAddress" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
                     </label>
                 </p>
                 <p>     <!--Input for suburb/town-->
                     <label for="suburbTown">Suburb/town: 
-                        <input type="text" name="suburbTown" id="suburbTown" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
+                        <input class="input" type="text" name="suburbTown" id="suburbTown" required maxlength="40" oninvalid="setCustomValidity('Please enter a maximum of 40 alpha characters')">
                     </label>
                 </p>
                 <p>     <!--Input for state-->
                     <label for="state">State: 
-                        <select name="state" id="state" required>
+                        <select class="input" name="state" id="state" required>
                             <option value="">Please select</option>
                             <option value="VIC">VIC</option>
                             <option value="NSW">NSW</option>
@@ -87,30 +87,30 @@
                 </p>
                 <p>     <!--Input for the postcode-->
                     <label for="postcode">Postcode:
-                        <input type="text" name="postcode" id="postcode" minlength="4" maxlength="4" pattern="[0-9]+">
+                        <input class="input" type="text" name="postcode" id="postcode" minlength="4" maxlength="4" pattern="[0-9]+">
                     </label>
                 </p>
                 <p>     <!--Input for phone number-->
                     <label for="phoneNumber">Phone Number:
-                        <input type="text" name="phoneNumber" id="phoneNumber" minlength="8" maxlength="12" pattern="[0-9]+">
+                        <input class="input" type="text" name="phoneNumber" id="phoneNumber" minlength="8" maxlength="12" pattern="[0-9]+">
                     </label>
                 </p>
                 <fieldset id="qualificationCheckbox">
                     <legend><strong>Required Technical Qualifications:</strong></legend>
                     <p>     <!--Input for technical list checkbox-->
-                        <input type="checkbox" id="bachelorDegree" name="qualifications[]" value="bachelorDegree" required>
+                        <input class="checkbox" type="checkbox" id="bachelorDegree" name="qualifications[]" value="bachelorDegree" required>
                         <label for="bachelorDegree">Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.</label>
                     </p>
                     <p>
-                        <input type="checkbox" id="threeYearsExp" name="qualifications[]" value="threeYearsExp" required>
+                        <input class="checkbox" type="checkbox" id="threeYearsExp" name="qualifications[]" value="threeYearsExp" required>
                         <label for="threeYearsExp">Minimum of 3 years of professional experience in software development.</label>
                     </p>
                     <p>
-                        <input type="checkbox" id="twoLanguageProficiency" name="qualifications[]" value="twoLanguageProficiency" required>
+                        <input class="checkbox" type="checkbox" id="twoLanguageProficiency" name="qualifications[]" value="twoLanguageProficiency" required>
                         <label for="twoLanguageProficiency">Strong proficiency in at least two programming languages such as Java, Python, C#, or JavaScript.</label>
                     </p>
                     <p>
-                        <input type="checkbox" id="frameworkExperience" name="qualifications[]" value="frameworkExperience" required>
+                        <input class="checkbox" type="checkbox" id="frameworkExperience" name="qualifications[]" value="frameworkExperience" required>
                         <label for="frameworkExperience">Experience with software development frameworks and technologies (e.g., .NET, React, Angular, Spring, Django).</label>
                     </p>
                     <p></p>
